@@ -8,7 +8,7 @@ import logging
 
 option_a = os.getenv('OPTION_A', "Cats")
 option_b = os.getenv('OPTION_B', "Dogs")
-redis_password = os.getenv('REDIS_PASSWORD', "DOGS")
+redis_password = "redis_password"
 hostname = socket.gethostname()
 
 app = Flask(__name__)
